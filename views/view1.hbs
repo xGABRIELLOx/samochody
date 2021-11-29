@@ -1,0 +1,137 @@
+<h3>Dane pojazdu</h3>
+<div class="big">
+    <div>
+        <form method="GET" action="/auto">
+            <div class="part">
+                <div class="one">
+                    ubezpieczony
+                </div>
+                <div style="border:1px solid black; margin: 2px;">
+                    <input type="checkbox" name="chbxa"></input>
+                </div>
+            </div>
+            <div class="part">
+                <div class="one">
+                    benzyna
+                </div>
+                <div style="border:1px solid black; margin: 2px;">
+                    <input type="checkbox" name="chbxb"></input>
+                </div>
+            </div>
+            <div class="part">
+                <div class="one">
+                    uszkodzony
+                </div>
+                <div style="border:1px solid black; margin: 2px;">
+                    <input type="checkbox" name="chbxc"></input>
+                </div>
+            </div>
+            <div class="part">
+                <div class="one">
+                    napęd 4x4
+                </div>
+                <div style="border:1px solid black; margin: 2px;">
+                    <input type="checkbox" name="chbxd"></input>
+                </div>
+            </div>
+            <input type="submit" class="sb1">
+        </form>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>ubezpieczony</th>
+                    <th>benzyna</th>
+                    <th>uszkodzony</th>
+                    <th>napęd 4x4</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+
+                {{#each docsy}}
+
+                <tr>
+                    <td>{{@index}}</td>
+                    <td>{{{ubezpieczony}}}</td>
+                    <td>{{{benzyna}}}</td>
+                    <td>{{{uszkodzony}}}</td>
+                    <td>{{{naped}}}</td>
+                    <td>
+                        <form action="/deletecars" method="get">
+                            <input type="submit" class="dlip" value="DELETE">
+                            <input type="hidden" value={{_id}} name="delete">
+                        </form>
+                    </td>
+                    <td>
+                        <form action="/editcars" method="get">
+                            <input type="submit" class="edip" value="EDIT">
+                            <input type="hidden" value={{_id}} name="edit">
+                        </form>
+                    </td>
+                </tr>
+
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<style>
+    th {
+
+        border: 1px solid black;
+        width: 100px;
+        height: 20px;
+        color: blue;
+    }
+
+    td {
+
+        border: 1px solid black;
+        width: 100px;
+        height: 20px;
+        text-align: center;
+    }
+
+    .part {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .big {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .one {
+
+        color: blue;
+        width: 150px;
+        height: 20px;
+        border: 1px solid black;
+        margin: 2px;
+    }
+
+    .edip {
+        border: 1px blue solid;
+        border-radius: 30px;
+        color: blue;
+    }
+
+    .dlip {
+        border: 1px red solid;
+        border-radius: 25px;
+        color: red;
+    }
+
+    .sb1 {
+        color: blue;
+        border: 1px solid blue;
+        border-radius: 30px;
+    }
+</style>

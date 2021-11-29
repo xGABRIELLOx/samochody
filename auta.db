@@ -1,0 +1,9 @@
+{"ubezpieczony":"NIE","benzyna":"TAK","uszkodzony":"TAK","naped":"NIE","_id":"VAxYBN3bP9lC7ZGN"}
+{"$$deleted":true,"_id":"VAxYBN3bP9lC7ZGN"}
+{"ubezpieczony":"NIE","benzyna":"TAK","uszkodzony":"TAK","naped":"TAK","_id":"OmEBJAmOLI1hpqft"}
+{"ubezpieczony":"<select name=\"sel1\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","benzyna":"<select name=\"sel2\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","uszkodzony":"<select name=\"sel3\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","naped":"<select name=\"sel4\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","_id":"OmEBJAmOLI1hpqft"}
+{"ubezpieczony":"NIE","benzyna":"NIE","uszkodzony":"TAK","naped":"TAK","_id":"OmEBJAmOLI1hpqft"}
+{"ubezpieczony":"<select name=\"sel1\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","benzyna":"<select name=\"sel2\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","uszkodzony":"<select name=\"sel3\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","naped":"<select name=\"sel4\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","_id":"OmEBJAmOLI1hpqft"}
+{"ubezpieczony":"TAK","benzyna":"TAK","uszkodzony":"TAK","naped":"TAK","_id":"OmEBJAmOLI1hpqft"}
+{"ubezpieczony":"<select name=\"sel1\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","benzyna":"<select name=\"sel2\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","uszkodzony":"<select name=\"sel3\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","naped":"<select name=\"sel4\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","_id":"OmEBJAmOLI1hpqft"}
+{"ubezpieczony":"TAK","benzyna":"TAK","uszkodzony":"TAK","naped":"TAK","_id":"OmEBJAmOLI1hpqft"}
